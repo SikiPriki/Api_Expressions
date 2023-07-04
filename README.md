@@ -9,5 +9,5 @@ To run the code, one simply can write: flask run.
 ## URL
 The plain localhost URL will show text "Hello Flask" in the browser, to show that the applicaion is working.
 When writing URL/face/all then one gets all the data that is stored in this API.
-To get a secifict expression one has to write after the basic (localhost) URL: face?name=smile. Instead of smile one could use whatever other name that the API data has.
+To get a secifict expression one has to write URL/face?name=smile. Instead of smile one could use whatever other name that the API data has.
 
