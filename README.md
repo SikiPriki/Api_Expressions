@@ -4,7 +4,8 @@ This is Flask based code and has a SVG data for different expressions.
 
 ## Code
 - This Api has a Docker container, what will automatically download Flask when opening the code in a container.
-- To run the code, one simply can write: flask run. 
+- To run the code, one simply can write: flask run.
+- Note that you might need to define the FLASK_APP variable to point to main.py. You do this by writing "export FLASK_APP=main.py" while in the /app directory.
 
 ## URL
 - The plain localhost URL will show text "Hello Flask" in the browser, to show that the applicaion is working.
